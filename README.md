@@ -77,3 +77,15 @@ div:nth-child()
 " A C D "
 
 grid-area: " " 
+
+# Eixos
+
+Sobre a movimentacao dos espacoes e utilizado os comandos:
+    - Aling
+        Eixo Y
+    - Justfy
+        Eixo X 
+    - Place
+        - Ambos
+
+* Tambem e aplicado aos itens
