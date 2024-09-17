@@ -32,9 +32,17 @@ Para fixar os conhecimentos em CSS grid
 
 # Itens
 
-grid-colum;
+grid-colum / grid-row
   -  start
   -  end
-grid-row
-  -  start
-  -  end
+- Define o ponto de inicio e fim do item desejado
+- E possivel utilizar o shortcut por fracoes ("1/3")
+
+#app>div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+div:nth-child()
+    - Seleciona o membro filho desejado dentro dos ()
+
