@@ -1,5 +1,7 @@
 Para fixar os conhecimentos em CSS grid 
 
+![CSS GRID](https://github.com/user-attachments/assets/89655846-6974-4593-ab99-d3e8c65b24d3)
+
 #app {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
