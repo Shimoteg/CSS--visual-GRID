@@ -46,3 +46,34 @@ grid-colum / grid-row
 div:nth-child()
     - Seleciona o membro filho desejado dentro dos ()
 
+# Area
+
+#app {
+    display: grid;
+
+    grid-template-areas:
+        "header main main"
+        "header main main"
+        "header aside footer";
+
+    height: 100vh;
+}
+
+- Utilizando o temaplate de area e possivel criar uma matriz que define a posicao porem os valores e espacos que seram utilizados devem ser declarados:
+
+
+#app header {
+    grid-area: header;
+}
+
+#app main {
+    grid-area: main;
+}
+
+- A declaracão tambem pode ser feita com outros exemplos como 
+
+" A B B "
+" A B B "
+" A C D "
+
+grid-area: " " 

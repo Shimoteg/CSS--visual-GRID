@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#app {
+    display: grid;
+
+    grid-template-areas:
+        "header main main"
+        "header main main"
+        "header aside footer";
+
+    height: 100vh;
+
+    border: 3px solid green;
+}
+
+#app>* {
+    border: 1px solid red;
+}
+
+#app header {
+    grid-area: header;
+}
+
+#app main {
+    grid-area: main;
+}
